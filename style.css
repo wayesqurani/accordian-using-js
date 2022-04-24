@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Poppins&display=swap');
+
 body{
 	margin:0;
-	font-family: sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
-
+h3{
+    
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+}
 *{
 	box-sizing: border-box;
 }
@@ -15,7 +21,7 @@ body{
 
 .accordian .card{
 	box-shadow: 0px 0px 20px #d4d4d4;
-	margin-bottom:20px;
+	margin-bottom:3px;
 	float: left;
 	width: 100%;
 }
@@ -34,7 +40,7 @@ body{
 .accordian .card .card-header span{
 	position: absolute;
 	right:20px;
-	top:12px;
+	top:15px;
 	height:25px;
 	width:25px;
 	color:#5901FF;
